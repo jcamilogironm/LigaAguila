@@ -4,7 +4,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
@@ -79,7 +79,7 @@
 
         <FrameLayout
             android:layout_width="fill_parent"
-            android:layout_height="2px"
+            android:layout_height="2dp"
             android:layout_span="7"
             android:background="#000000"
         >
