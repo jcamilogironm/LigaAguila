@@ -2,6 +2,7 @@ package com.example.juancamilogiron.ligaaguila;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -9,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends ActionBarActivity {
 
     boolean spActive;
     boolean spPaused;
