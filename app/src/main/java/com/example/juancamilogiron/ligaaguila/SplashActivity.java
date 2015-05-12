@@ -1,5 +1,6 @@
 package com.example.juancamilogiron.ligaaguila;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -8,13 +9,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class SplashActivity extends ActionBarActivity {
+public class SplashActivity extends Activity {
 
     boolean spActive;
     boolean spPaused;
     long spTime=3000;
 
-    @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         spPaused=false;
@@ -33,7 +33,7 @@ public class SplashActivity extends ActionBarActivity {
 
                     }
 
-                    startActivity(new Intent("com.example.juancamilogiron.CLEARSPLASH"));
+                    startActivity(new Intent("com.example.juancamilogiron.ligaaguila.CLEARSPLASH"));
 
                     finish();
 

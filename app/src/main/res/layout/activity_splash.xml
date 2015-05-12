@@ -5,8 +5,4 @@
     android:src="@drawable/ic_splash"
     tools:context=".SplashActivity">
 
-
-
-
-
 </ImageView>
