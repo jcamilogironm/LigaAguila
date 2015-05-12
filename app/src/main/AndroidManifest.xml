@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".TablaActivity"
-            android:label="@string/tittle">
+        <activity
+            android:theme="@style/AppTheme2"
+            android:name=".TablaActivity"
+            android:label="@string/tittle"
+
+            >
             <intent-filter>
                 <action android:name="com.example.juancamilogiron.ligaaguila.CLEARSPLASH"/>
                 <category android:name="android.intent.category.DEFAULT"/>

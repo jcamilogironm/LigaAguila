@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.support.v4.app.Fragment;
 
 
 public class TablaActivity extends ActionBarActivity {
@@ -18,7 +19,7 @@ public class TablaActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_splash, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
