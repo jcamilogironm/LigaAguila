@@ -12,6 +12,7 @@ import org.ksoap2.transport.HttpTransportSE;
 import org.xmlpull.v1.XmlPullParserException;
 
 import com.google.gson.Gson;
+import org.apache.http.HttpEntity;
 import com.google.gson.reflect.TypeToken;
 
 
