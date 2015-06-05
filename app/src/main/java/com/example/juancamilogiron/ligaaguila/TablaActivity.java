@@ -1,6 +1,7 @@
 package com.example.juancamilogiron.ligaaguila;
 
 
+
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -31,12 +32,12 @@ import java.util.List;
 //Edicion prueba
 public class TablaActivity extends ActionBarActivity {
 
-    private TextView txtteam1,txtteam2,txtteam3,txtteam4,txtteam5,txtteam6,txtteam7,txtteam8,txtteam9,txtteam10,txtteam11,txtteam12,txtteam13,txtteam14,txtteam15,txtteam16,txtteam17,txtteam18,txtteam19,txtteam20;
-    private TextView txtpj1,txtpj2,txtpj3,txtpj4,txtpj5,txtpj6,txtpj7,txtpj8,txtpj9,txtpj10,txtpj11,txtpj12,txtpj13,txtpj14,txtpj15,txtpj16,txtpj17,txtpj18,txtpj19,txtpj20;
-    private TextView txtpg1,txtpg2,txtpg3,txtpg4,txtpg5,txtpg6,txtpg7,txtpg8,txtpg9,txtpg10,txtpg11,txtpg12,txtpg13,txtpg14,txtpg15,txtpg16,txtpg17,txtpg18,txtpg19,txtpg20;
-    private TextView txtpe1,txtpe2,txtpe3,txtpe4,txtpe5,txtpe6,txtpe7,txtpe8,txtpe9,txtpe10,txtpe11,txtpe12,txtpe13,txtpe14,txtpe15,txtpe16,txtpe17,txtpe18,txtpe19,txtpe20;
-    private TextView txtpp1,txtpp2,txtpp3,txtpp4,txtpp5,txtpp6,txtpp7,txtpp8,txtpp9,txtpp10,txtpp11,txtpp12,txtpp13,txtpp14,txtpp15,txtpp16,txtpp17,txtpp18,txtpp19,txtpp20;
-    private TextView txtpts1,txtpts2,txtpts3,txtpts4,txtpts5,txtpts6,txtpts7,txtpts8,txtpts9,txtpts10,txtpts11,txtpts12,txtpts13,txtpts14,txtpts15,txtpts16,txtpts17,txtpts18,txtpts19,txtpts20;
+    private TextView txtteam1;//,txtteam2,txtteam3,txtteam4,txtteam5,txtteam6,txtteam7,txtteam8,txtteam9,txtteam10,txtteam11,txtteam12,txtteam13,txtteam14,txtteam15,txtteam16,txtteam17,txtteam18,txtteam19,txtteam20;
+    private TextView txtpj1;//,txtpj2,txtpj3,txtpj4,txtpj5,txtpj6,txtpj7,txtpj8,txtpj9,txtpj10,txtpj11,txtpj12,txtpj13,txtpj14,txtpj15,txtpj16,txtpj17,txtpj18,txtpj19,txtpj20;
+    private TextView txtpg1;//,txtpg2,txtpg3,txtpg4,txtpg5,txtpg6,txtpg7,txtpg8,txtpg9,txtpg10,txtpg11,txtpg12,txtpg13,txtpg14,txtpg15,txtpg16,txtpg17,txtpg18,txtpg19,txtpg20;
+    private TextView txtpe1;//,txtpe2,txtpe3,txtpe4,txtpe5,txtpe6,txtpe7,txtpe8,txtpe9,txtpe10,txtpe11,txtpe12,txtpe13,txtpe14,txtpe15,txtpe16,txtpe17,txtpe18,txtpe19,txtpe20;
+    private TextView txtpp1;//,txtpp2,txtpp3,txtpp4,txtpp5,txtpp6,txtpp7,txtpp8,txtpp9,txtpp10,txtpp11,txtpp12,txtpp13,txtpp14,txtpp15,txtpp16,txtpp17,txtpp18,txtpp19,txtpp20;
+    private TextView txtpts1;//,txtpts2,txtpts3,txtpts4,txtpts5,txtpts6,txtpts7,txtpts8,txtpts9,txtpts10,txtpts11,txtpts12,txtpts13,txtpts14,txtpts15,txtpts16,txtpts17,txtpts18,txtpts19,txtpts20;
     private int posicion=0;
     private Button mostrar;
     private List<Tabla> listaTabla;
@@ -50,7 +51,7 @@ public class TablaActivity extends ActionBarActivity {
 
         listaTabla=new ArrayList<Tabla>();
         txtteam1=(TextView)findViewById(R.id.team1);
-        txtteam2=(TextView)findViewById(R.id.team2);
+ /*       txtteam2=(TextView)findViewById(R.id.team2);
         txtteam3=(TextView)findViewById(R.id.team3);
         txtteam4=(TextView)findViewById(R.id.team4);
         txtteam5=(TextView)findViewById(R.id.team5);
@@ -68,10 +69,10 @@ public class TablaActivity extends ActionBarActivity {
         txtteam17=(TextView)findViewById(R.id.team17);
         txtteam18=(TextView)findViewById(R.id.team18);
         txtteam19=(TextView)findViewById(R.id.team19);
-        txtteam20=(TextView)findViewById(R.id.team20);
+        txtteam20=(TextView)findViewById(R.id.team20);*/
 
         txtpj1=(TextView)findViewById(R.id.pj1);
-        txtpj2=(TextView)findViewById(R.id.pj2);
+  /*      txtpj2=(TextView)findViewById(R.id.pj2);
         txtpj3=(TextView)findViewById(R.id.pj3);
         txtpj4=(TextView)findViewById(R.id.pj4);
         txtpj5=(TextView)findViewById(R.id.pj5);
@@ -89,11 +90,11 @@ public class TablaActivity extends ActionBarActivity {
         txtpj17=(TextView)findViewById(R.id.pj17);
         txtpj18=(TextView)findViewById(R.id.pj18);
         txtpj19=(TextView)findViewById(R.id.pj19);
-        txtpj20=(TextView)findViewById(R.id.pj20);
+        txtpj20=(TextView)findViewById(R.id.pj20);*/
 
 
         txtpg1=(TextView)findViewById(R.id.pg1);
-        txtpg2=(TextView)findViewById(R.id.pg2);
+  /*      txtpg2=(TextView)findViewById(R.id.pg2);
         txtpg3=(TextView)findViewById(R.id.pg3);
         txtpg4=(TextView)findViewById(R.id.pg4);
         txtpg5=(TextView)findViewById(R.id.pg5);
@@ -111,11 +112,11 @@ public class TablaActivity extends ActionBarActivity {
         txtpg17=(TextView)findViewById(R.id.pg17);
         txtpg18=(TextView)findViewById(R.id.pg18);
         txtpg19=(TextView)findViewById(R.id.pg19);
-        txtpg20=(TextView)findViewById(R.id.pg20);
+        txtpg20=(TextView)findViewById(R.id.pg20);*/
 
 
         txtpe1=(TextView)findViewById(R.id.pe1);
-        txtpe2=(TextView)findViewById(R.id.pe2);
+   /*     txtpe2=(TextView)findViewById(R.id.pe2);
         txtpe3=(TextView)findViewById(R.id.pe3);
         txtpe4=(TextView)findViewById(R.id.pe4);
         txtpe5=(TextView)findViewById(R.id.pe5);
@@ -133,11 +134,11 @@ public class TablaActivity extends ActionBarActivity {
         txtpe17=(TextView)findViewById(R.id.pe17);
         txtpe18=(TextView)findViewById(R.id.pe18);
         txtpe19=(TextView)findViewById(R.id.pe19);
-        txtpe20=(TextView)findViewById(R.id.pe20);
+        txtpe20=(TextView)findViewById(R.id.pe20);*/
 
 
         txtpp1=(TextView)findViewById(R.id.pp1);
-        txtpp2=(TextView)findViewById(R.id.pp2);
+  /*      txtpp2=(TextView)findViewById(R.id.pp2);
         txtpp3=(TextView)findViewById(R.id.pp3);
         txtpp4=(TextView)findViewById(R.id.pp4);
         txtpp5=(TextView)findViewById(R.id.pp5);
@@ -155,10 +156,10 @@ public class TablaActivity extends ActionBarActivity {
         txtpp17=(TextView)findViewById(R.id.pp17);
         txtpp18=(TextView)findViewById(R.id.pp18);
         txtpp19=(TextView)findViewById(R.id.pp19);
-        txtpp20=(TextView)findViewById(R.id.pp20);
+        txtpp20=(TextView)findViewById(R.id.pp20);*/
 
         txtpts1=(TextView)findViewById(R.id.pts1);
-        txtpts2=(TextView)findViewById(R.id.pts2);
+   /*     txtpts2=(TextView)findViewById(R.id.pts2);
         txtpts3=(TextView)findViewById(R.id.pts3);
         txtpts4=(TextView)findViewById(R.id.pts4);
         txtpts5=(TextView)findViewById(R.id.pts5);
@@ -176,7 +177,7 @@ public class TablaActivity extends ActionBarActivity {
         txtpts17=(TextView)findViewById(R.id.pts17);
         txtpts18=(TextView)findViewById(R.id.pts18);
         txtpts19=(TextView)findViewById(R.id.pts19);
-        txtpts20=(TextView)findViewById(R.id.pts20);
+        txtpts20=(TextView)findViewById(R.id.pts20);*/
 
         mostrar=(Button)findViewById(R.id.mostrar);
         mostrar.setOnClickListener(new View.OnClickListener() {
@@ -211,15 +212,15 @@ public class TablaActivity extends ActionBarActivity {
 
     private String mostrar(){
         HttpClient httpClient=new DefaultHttpClient();
-        HttpPost httpPost=new HttpPost("http://localhost/webservice/conexion.php");
+        HttpPost httpPost=new HttpPost("http://webserviceligaaguila.esy.es/webService/consulta.php");
         String resultado="";
         HttpResponse response;
 
         try {
             response=httpClient.execute(httpPost);
             HttpEntity entity=response.getEntity();
-            InputStream inputStream=entity.getContent();
-            resultado=convertStreamToString(inputStream);
+            InputStream instream=entity.getContent();
+            resultado=convertStreamToString(instream);
         }catch (ClientProtocolException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -256,7 +257,7 @@ public class TablaActivity extends ActionBarActivity {
     }
 
     private boolean filtrarDatos(){
-            listaTabla.clear();
+        listaTabla.clear();
         String data=mostrar();
 
         if (!data.equalsIgnoreCase("")){
@@ -299,6 +300,8 @@ public class TablaActivity extends ActionBarActivity {
                 txtpe1.setText(tabla.getPe());
                 txtpp1.setText(tabla.getPp());
                 txtpts1.setText(tabla.getPts());
+
+                System.out.println(tabla.getEquipo());
             }
         });
 
