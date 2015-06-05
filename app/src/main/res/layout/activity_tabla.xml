@@ -1341,8 +1341,9 @@
                 android:text=""
                 />
             <Button
+                android:id="@+id/mostrar"
                 android:text="@string/actualizar"
-                android:onClick="exeActualizar"
+
                 />
 
 

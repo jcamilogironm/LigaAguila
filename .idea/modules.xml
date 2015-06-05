@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/LigaAguila.iml" filepath="$PROJECT_DIR$/LigaAguila.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gson-1.7.1/gson-1.7.1.iml" filepath="$PROJECT_DIR$/gson-1.7.1/gson-1.7.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gson-1.7.1/gson-1.7.1.iml" filepath="$PROJECT_DIR$/gson-1.7.1/gson-1.7.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ksoap2-android-assembly-2.5.8-jar-with-dependencies/ksoap2-android-assembly-2.5.8-jar-with-dependencies.iml" filepath="$PROJECT_DIR$/ksoap2-android-assembly-2.5.8-jar-with-dependencies/ksoap2-android-assembly-2.5.8-jar-with-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/ksoap2-android-assembly-2.5.8-jar-with-dependencies/ksoap2-android-assembly-2.5.8-jar-with-dependencies.iml" filepath="$PROJECT_DIR$/ksoap2-android-assembly-2.5.8-jar-with-dependencies/ksoap2-android-assembly-2.5.8-jar-with-dependencies.iml" />
     </modules>
   </component>
